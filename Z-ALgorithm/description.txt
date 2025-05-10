@@ -1,0 +1,23 @@
+Given two strings, one is a text string, text, and the other is a pattern string, pattern. Print the indexes of all occurrences of the pattern string in the text string using the Z function algorithm. Use 0-based indexing while returning the indices.
+
+
+Examples:
+Input: text = "xyzabxyzabxyz", pattern = "xyz"
+
+
+
+Output: 0 5 10
+
+
+
+Expalanation : The pattern "xyz" occurs three times in text, starting at indices 0, 5, and 10.
+
+Input: text = "cabcdab", pattern = "abc"
+
+
+
+Output: 1
+
+
+
+Expalanation : The pattern "abc" occurs one time in text, starting at index 1.
